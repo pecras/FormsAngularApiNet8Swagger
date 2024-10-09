@@ -1,0 +1,16 @@
+.blue-btn {
+  background-color: blue;
+  color: white;
+}
+
+.red-btn {
+  background-color: red;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}

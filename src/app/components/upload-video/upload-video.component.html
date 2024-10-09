@@ -1,0 +1,9 @@
+<div>
+    <h1>Upload de Vídeo</h1>
+    <input type="file" accept="video/*" (change)="onFileSelected($event)" />
+    <div *NgIf="suggestions">
+      <h2>Sugestões de Melhoria:</h2>
+      <p>{{ suggestions }}</p>
+    </div>
+  </div>
+  
